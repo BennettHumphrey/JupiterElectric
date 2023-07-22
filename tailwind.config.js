@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     screens: {
-      xs: '480px',
+      xs: '440px',
       sm: '550px',
       md: '768px',
       lg: '976px',
@@ -14,11 +14,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        "accent": "#605E5E",
-        "background": "#FFFFFFEB",
-        "background-overlay": "CCCCCC36",
-        "header": "#207EA5",
-        "sub-header": "#30BDFF"
+        "main": "#605E5E",
+        "background": "#FFFFFFDD",
+        "nav-background": "#207EA595",
+        "background-overlay": "#CCCCCC36",
+        "accent": "#207EA5",
+        "secondary-accent": "#30BDFF"
       },
     },
   },

@@ -1,30 +1,30 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
+import Services from "./components/services";
+import Testimonials from "./components/Testimonials";
+import CompanyName from "./components/CompanyName";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-        </a>
-        <a href="https://react.dev" target="_blank">
-        </a>
+
+    // remove h-[100vh] when scrolling needed, will cause issues
+    <div className="bg-[url('../assets/bg.webp')] bg-fixed bg-cover bg-[center_top_9px]  text-black">
+      <div className="bg-nav-background h-full flex flex-col justify-center" >
+        <CompanyName  />
+        <Nav  />
+        <Hero  />
+        <About  />
+        <Services  />
+        <Contact  />
+        <Testimonials  />
+        <Footer  />
       </div>
-      <h1 className='text-red-400 text-xl'>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p className='text-green-300'>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </div>
   )
 }
 
