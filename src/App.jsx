@@ -1,12 +1,12 @@
 import { useState } from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Nav from "./components/Nav";
-import Services from "./components/services";
-import Testimonials from "./components/Testimonials";
-import CompanyName from "./components/CompanyName";
+import About from "./components/About.jsx";
+import Contact from "./components/Contact.jsx";
+import Footer from "./components/Footer.jsx";
+import Hero from "./components/Hero.jsx";
+import Nav from "./components/Nav.jsx";
+import Services from "./components/Services.jsx";
+import Testimonials from "./components/Testimonials.jsx";
+import CompanyName from "./components/CompanyName.jsx";
 
 function App() {
 
