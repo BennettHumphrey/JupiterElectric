@@ -6,7 +6,7 @@ import Hero from "./components/hero.jsx";
 import Nav from "./components/nav.jsx";
 import Services from "./components/services.jsx";
 import Testimonials from "./components/testimonials.jsx";
-import CompanyName from "./components/companyName.jsx";
+import CompanyName from "./components/companyname.jsx";
 
 function App() {
 
